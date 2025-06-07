@@ -1,0 +1,6 @@
+netflix_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: '/workspace/netflix-dbt-project/database/netflix_db.duckdb'
+  target: dev
